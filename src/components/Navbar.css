@@ -1,0 +1,99 @@
+ @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Special+Elite&family=Crimson+Text:wght@400;600&display=swap');
+
+        .nav-root {
+          font-family: 'Crimson Text', Georgia, serif;
+        }
+
+        
+        .nav-root::after {
+          content: '';
+          display: block;
+          height: 18px;
+          background:
+            radial-gradient(ellipse 18px 10px at 9px 0, transparent 60%, rgba(80,50,20,0.18) 61%),
+            radial-gradient(ellipse 18px 10px at 27px 0, transparent 60%, rgba(80,50,20,0.12) 61%);
+          background-size: 36px 10px;
+          background-repeat: repeat-x;
+          background-color: transparent;
+          margin-top: -2px;
+        }
+
+        .brand-text {
+          font-family: 'Playfair Display', Georgia, serif;
+          font-size: 2.6rem;
+          font-weight: 700;
+          font-style: italic;
+          color: #4a3010;
+          letter-spacing: -1px;
+          text-shadow: 1px 2px 0px rgba(255,220,150,0.4), 0 1px 8px rgba(0,0,0,0.12);
+          line-height: 1;
+          transition: color 0.2s;
+        }
+        .brand-text:hover { color: #6b4520; }
+
+        .brand-dot {
+          display: inline-block;
+          width: 6px; height: 6px;
+          background: #b87030;
+          border-radius: 50%;
+          margin-left: 2px;
+          vertical-align: middle;
+          margin-bottom: 6px;
+          box-shadow: 0 0 0 2px rgba(184,112,48,0.2);
+        }
+
+        .liked-btn {
+          display: flex; align-items: center; gap: 7px;
+          font-family: 'Crimson Text', serif;
+          font-size: 1rem;
+          font-weight: 600;
+          color: #5c3d18;
+          background: rgba(232,212,170,0.5);
+          border: 1.5px solid rgba(184,154,106,0.5);
+          border-radius: 6px;
+          padding: 6px 14px;
+          cursor: pointer;
+          transition: background 0.18s, transform 0.15s, border-color 0.18s;
+          letter-spacing: 0.3px;
+          white-space: nowrap;
+        }
+        .liked-btn:hover {
+          background: rgba(212,192,150,0.7);
+          border-color: #b89a6a;
+          transform: translateY(-1px);
+        }
+        .liked-btn .heart { font-size: 1.1rem; color: #a04030; }
+
+        .nav-link {
+          font-family: 'Special Elite', monospace;
+          font-size: 0.82rem;
+          letter-spacing: 1.5px;
+          text-transform: uppercase;
+          color: #5c3d18;
+          background: none;
+          border: none;
+          cursor: pointer;
+          padding: 6px 10px;
+          border-radius: 4px;
+          transition: background 0.15s, color 0.15s;
+          white-space: nowrap;
+        }
+        .nav-link:hover { background: rgba(184,154,106,0.25); color: #3a2010; }
+
+       
+       
+       
+        
+        .divider-v {
+          width: 1px; height: 22px;
+          background: linear-gradient(to bottom, transparent, #b89a6a88, transparent);
+          flex-shrink: 0;
+        }
+
+      
+        @keyframes fadeSlideIn {
+          from { opacity: 0; transform: translateY(-8px); }
+          to   { opacity: 1; transform: translateY(0); }
+        }
+        .nav-root { animation: fadeSlideIn 0.4s ease both; }
+      
