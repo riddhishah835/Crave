@@ -1,16 +1,118 @@
-# React + Vite
+# Crave 🍽️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A smart **Recipe Finder Web App** that helps users discover recipes based on the ingredients they already have. Simply add ingredients, apply filters, and find delicious meals instantly! Users can also save their favorite recipes for later.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+* 🥕 **Ingredient-Based Search**
+  Add available ingredients and get matching recipes.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* 🥗 **Veg / Non-Veg Toggle**
+  Easily switch between vegetarian and non-vegetarian recipes.
 
-## Expanding the ESLint configuration
+* ❤️ **Save Favorite Recipes**
+  Bookmark recipes and access them anytime.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* 🔍 **Smart Filtering**
+  Refine recipe results based on preferences.
+
+* 📱 **Responsive Design**
+  Works smoothly across desktop, tablet, and mobile devices.
+
+---
+
+## 🛠️ Tech Stack
+
+* **Frontend:** React.js / Vite
+* **Styling:** CSS / Tailwind CSS *(if used)*
+* **State Management:** React Hooks / Context API
+* **Storage:** Local Storage / Database *(if used)*
+
+---
+
+## 📂 Project Structure
+
+```bash
+Crave/
+│── public/          # Static assets
+│── src/
+│   ├── components/  # Reusable UI components
+│   ├── pages/       # Main pages
+│   ├── assets/      # Images / icons
+│   └── App.jsx      # Root component
+│── package.json
+│── vite.config.js
+```
+
+---
+
+## ⚡ Installation & Setup
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/riddhishah835/Crave.git
+```
+
+2. Navigate into the project folder
+
+```bash
+cd Crave
+```
+
+3. Install dependencies
+
+```bash
+npm install
+```
+
+4. Start the development server
+
+```bash
+npm run dev
+```
+
+5. Open in browser
+
+```bash
+http://localhost:5173
+```
+
+---
+
+## 🎯 How to Use
+
+1. Enter ingredients you have.
+2. Choose **Veg** or **Non-Veg** recipes.
+3. Browse suggested recipes.
+4. Save your favorite recipes.
+
+---
+
+
+## 🌟 Future Enhancements
+
+* 🍳 Recipe details with step-by-step cooking instructions
+* 🛒 Grocery shopping list generator
+
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Fork the repo and submit a pull request.
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 👩‍💻 Author
+
+**Riddhi Shah**
+GitHub: [@riddhishah835](https://github.com/riddhishah835)
